@@ -10,5 +10,5 @@ class anagram
     words_arr.select do |words|
       words.split(" ").sort == @word.split(" ").sort
   end
-  
+end
 end
