@@ -7,7 +7,8 @@ class anagram
   end
   
   def match(words_arr)
-    words_arr.select do |words| words
+    words_arr.select do |words|
+      words.split(" ")
   end
   
 end
